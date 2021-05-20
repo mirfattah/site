@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mirfatta/api/
+    - /bin/cp * $DEPLOYPATH
